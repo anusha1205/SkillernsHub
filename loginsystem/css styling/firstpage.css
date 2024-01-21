@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+.navbar {
+    padding: 2%;
+}
+.navbar-brand-div{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    
+}
+.brand-logo{
+    text-decoration: none;
+    display: flex;
+    /* border-radius: 100%;
+    background-color: rgb(151, 151, 151); */
+    align-items: center;
+    color: rgb(43, 43, 110);
+}
+.brand-logo:hover{
+    color: rgb(99, 99, 119);
+}
+.navbar-brand{
+    color: rgb(4, 4, 41);
+    text-decoration: none;
+}
+.navbar-brand:hover{
+    color: grey;
+}
+.nav-link{
+    background-color: #041411;  
+    border-radius: 15px;
+    
+}
+
+
+
+
+.navbar-div{
+    background-color: #41ae97;
+    color: black;
+    display: flex;
+    padding: 3%;
+
+}
+.Skillerns, .hub{
+    color: black;
+}
+.Skillerns:hover , .hub:hover{
+    color: beige;
+}   
+
+
+.menu-button{
+    display: flex;
+    flex-wrap: nowrap;
+    
+    gap: 4%;
+}
+.btns{
+    color: black;
+}
+.btns:hover{
+    color: #094034;
+    text-decoration: underline;
+    text-decoration-color: rgb(2, 50, 42);
+}
+
+section {
+    margin: 1% 6% ;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.559);
+}
+
+
+#signup-div{
+    
+    width: 60%;
+}
+
+h2, h3 {
+    color: #41ae97;
+}
+h1{
+    color: #1a6757;
+}
+
+button {
+    background-color: #41ae97;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #41ae97;
+    color: #ecf0f1;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width:1017px) and (min-width:0px) {
+    
+}
